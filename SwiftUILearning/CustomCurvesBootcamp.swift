@@ -19,8 +19,8 @@ struct CustomCurvesBootcamp: View {
 //            .fill(
 //                waterGrad
 //            )
-            .frame(width: 300, height: 300)
-//            .ignoresSafeArea()
+//            .frame(width: 300, height: 300)
+            .ignoresSafeArea()
         
         let strokeStyle = StrokeStyle(lineWidth: 30, lineCap: .round, lineJoin: .round, miterLimit: .infinity)
         let gradient = Gradient(colors: [Color.red, .pink, .red, .yellow])
