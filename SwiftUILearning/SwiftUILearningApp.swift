@@ -11,7 +11,8 @@ import SwiftUI
 struct SwiftUILearningApp: App {
     var body: some Scene {
         WindowGroup {
-            MatchedGeometryEffectBootcamp2()
+//            MatchedGeometryEffectBootcamp2()
+            AppTapBarView()
         }
     }
 }
