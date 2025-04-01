@@ -29,6 +29,9 @@ struct AppTapBarView: View {
             
             Color.green.opacity(0.8)
                 .tabBarItem(.profile, selection: $tabSelection)
+            
+            Color.cyan.opacity(0.8)
+                .tabBarItem(.settings, selection: $tabSelection)
         }
     }
 }
