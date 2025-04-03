@@ -6,8 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		C1C086E22D9F05C400BF3347 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1590A362D8421F800E25835 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1590A3D2D8421F800E25835;
+			remoteInfo = SwiftUILearning;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		C1590A3E2D8421F800E25835 /* SwiftUILearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C086DE2D9F05C400BF3347 /* SwiftUILearning_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUILearning_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -16,10 +27,22 @@
 			path = SwiftUILearning;
 			sourceTree = "<group>";
 		};
+		C1C086DF2D9F05C400BF3347 /* SwiftUILearning_Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SwiftUILearning_Tests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C1590A3B2D8421F800E25835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C086DB2D9F05C400BF3347 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				C1590A402D8421F800E25835 /* SwiftUILearning */,
+				C1C086DF2D9F05C400BF3347 /* SwiftUILearning_Tests */,
 				C1590A3F2D8421F800E25835 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				C1590A3E2D8421F800E25835 /* SwiftUILearning.app */,
+				C1C086DE2D9F05C400BF3347 /* SwiftUILearning_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +95,29 @@
 			productReference = C1590A3E2D8421F800E25835 /* SwiftUILearning.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C1C086DD2D9F05C400BF3347 /* SwiftUILearning_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1C086E42D9F05C400BF3347 /* Build configuration list for PBXNativeTarget "SwiftUILearning_Tests" */;
+			buildPhases = (
+				C1C086DA2D9F05C400BF3347 /* Sources */,
+				C1C086DB2D9F05C400BF3347 /* Frameworks */,
+				C1C086DC2D9F05C400BF3347 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1C086E32D9F05C400BF3347 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C1C086DF2D9F05C400BF3347 /* SwiftUILearning_Tests */,
+			);
+			name = SwiftUILearning_Tests;
+			packageProductDependencies = (
+			);
+			productName = SwiftUILearning_Tests;
+			productReference = C1C086DE2D9F05C400BF3347 /* SwiftUILearning_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -77,11 +125,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1620;
-				LastUpgradeCheck = 1620;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
 				TargetAttributes = {
 					C1590A3D2D8421F800E25835 = {
 						CreatedOnToolsVersion = 16.2;
+					};
+					C1C086DD2D9F05C400BF3347 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = C1590A3D2D8421F800E25835;
 					};
 				};
 			};
@@ -100,12 +152,20 @@
 			projectRoot = "";
 			targets = (
 				C1590A3D2D8421F800E25835 /* SwiftUILearning */,
+				C1C086DD2D9F05C400BF3347 /* SwiftUILearning_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C1590A3C2D8421F800E25835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C086DC2D9F05C400BF3347 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +182,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C1C086DA2D9F05C400BF3347 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1C086E32D9F05C400BF3347 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1590A3D2D8421F800E25835 /* SwiftUILearning */;
+			targetProxy = C1C086E22D9F05C400BF3347 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		C1590A4A2D8421F900E25835 /* Debug */ = {
@@ -160,6 +235,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = KXUV7565X7;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -223,6 +299,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = KXUV7565X7;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -252,7 +329,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUILearning/Preview Content\"";
-				DEVELOPMENT_TEAM = KXUV7565X7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -260,6 +336,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -281,7 +358,6 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUILearning/Preview Content\"";
-				DEVELOPMENT_TEAM = KXUV7565X7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -289,6 +365,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,6 +376,42 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C1C086E52D9F05C400BF3347 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZG.SwiftUILearning-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUILearning.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUILearning";
+			};
+			name = Debug;
+		};
+		C1C086E62D9F05C400BF3347 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ZG.SwiftUILearning-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUILearning.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUILearning";
 			};
 			name = Release;
 		};
@@ -319,6 +432,15 @@
 			buildConfigurations = (
 				C1590A4D2D8421F900E25835 /* Debug */,
 				C1590A4E2D8421F900E25835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1C086E42D9F05C400BF3347 /* Build configuration list for PBXNativeTarget "SwiftUILearning_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C086E52D9F05C400BF3347 /* Debug */,
+				C1C086E62D9F05C400BF3347 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
