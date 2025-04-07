@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "18D74BA4-85F2-4F39-81F3-FD0155AE1434",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "language" : "en",
+    "region" : "US",
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:SwiftUILearning.xcodeproj",
+      "identifier" : "C1590A3D2D8421F800E25835",
+      "name" : "SwiftUILearning"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:SwiftUILearning.xcodeproj",
+        "identifier" : "C1C086DD2D9F05C400BF3347",
+        "name" : "SwiftUILearning_Tests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:SwiftUILearning.xcodeproj",
+        "identifier" : "C1E9ECE02D9FBBAA00E631CC",
+        "name" : "SwiftUILearning_UITests"
+      }
+    }
+  ],
+  "version" : 1
+}
